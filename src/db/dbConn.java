@@ -3,10 +3,10 @@ package db;
 import java.sql.*;
 
 /**
- * 
- * Title: 数据库连接 
+ *
+ * Title: 数据库连接
  * Description: 数据库连接模块
- * 
+ *
  * @author 谢孟辉
  */
 
@@ -27,7 +27,7 @@ public class dbConn {
 			// 数据库名称，管理员账号、密码
 			String url = "jdbc:mysql://localhost:3306/stuManagerDB";
 			String user = "root";
-			String pwd = "123";
+			String pwd = "root";
 
 			// 连接
 			Connection con = null;
