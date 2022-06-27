@@ -17,11 +17,11 @@ import java.net.URL;
 import java.sql.ResultSet;
 
 /**
- * 
- * Title: 登录模块 
+ *
+ * Title: 登录模块
  * Description: 登录模块的可视化实现
- * 
- * @author 谢孟辉
+ *
+ * @author JAVA设计
  */
 
 public class LoginFrame extends JFrame {
@@ -117,7 +117,7 @@ public class LoginFrame extends JFrame {
 		jPanel_bgBox.add(jLabel_bg, "jLabel8");
 		contentPane.add(jOptionPane_LoginFeedback);
 	}
-	
+
 	// 添加用户模块
 		public void jButton_SignUp_actionPerformed(ActionEvent e) {
 			UserAddFrame siadd = new UserAddFrame();
@@ -166,7 +166,7 @@ public class LoginFrame extends JFrame {
 			}
 		}
 	}
-	
+
 }
 
 class LoginFrame_jButton_Login_actionAdapter implements ActionListener {

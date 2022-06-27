@@ -12,7 +12,7 @@ import java.awt.Dimension;
  * Title: 登录类 
  * Description: 登陆模块，程序的入口类
  * 
- * @author 谢孟辉
+ * @author JAVA设计
  */
 
 public class LoginClass {

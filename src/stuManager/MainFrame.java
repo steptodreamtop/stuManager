@@ -24,21 +24,21 @@ import User.UserDelete;
 import User.UserPasswordFrame;
 
 /**
- * 
- * Title: 主界面 
+ *
+ * Title: 主界面
  * Description: 主界面模块，有对学生、班级、院系、课程、成绩、用户的录入与管理的菜单
- * 
- * @author 谢孟辉
+ *
+ * @author JAVA设计
  */
 
 public class MainFrame extends JFrame {
 	JPanel contentPane;
 	public static String level;
 	static String name;
-	
+
 	URL url = getClass().getResource("/img/bg.jpg");
 	ImageIcon mainBg = new ImageIcon(url);
-	
+
 	JLabel jLabel_welcomeTitle = new JLabel();
 	JLabel jLabel_welcomeTitle2 = new JLabel();
 	JLabel jLabel_help1 = new JLabel();
@@ -115,15 +115,15 @@ public class MainFrame extends JFrame {
 		jLabel_help1.setFont(new java.awt.Font("Dialog", Font.BOLD, 20));
 		jLabel_help1.setText("您可以对：");
 		jLabel_help1.setBounds(new Rectangle(500, 340, 400, 30));
-		
+
 		jLabel_help2.setFont(new java.awt.Font("Dialog", Font.BOLD, 20));
 		jLabel_help2.setText("学生、班级、院系、课程、成绩");
 		jLabel_help2.setBounds(new Rectangle(500, 370, 400, 30));
-		
+
 		jLabel_help3.setFont(new java.awt.Font("Dialog", Font.BOLD, 20));
 		jLabel_help3.setText("进行录入、查询、修改、删除的操作");
 		jLabel_help3.setBounds(new Rectangle(500, 400, 400, 30));
-		
+
 		jMenu_stuManager.setText("学生管理");
 		jMenuItem_stuInfoSignUp.setText("  录  入");
 		jMenuItem_stuInfoSignUp.addActionListener(new MainFrame_jMenuItem_stuInfoSignUp_actionAdapter(this));
@@ -239,7 +239,7 @@ public class MainFrame extends JFrame {
 
 	// 关于信息
 	public void jMenuItem_about_actionPerformed(ActionEvent e) {
-		jOptionPane_LoginFeedback.showMessageDialog(this, "学生信息管理系统\n版本号：1.0\n作   者：谢孟辉\n邮   箱：huihut@outlook.com\n博   客：blog.huihut.com\n本程序仅供学习使用",
+		jOptionPane_LoginFeedback.showMessageDialog(this, "学生信息管理系统\n版本号：1.0\n",
 				"关于", jOptionPane_LoginFeedback.INFORMATION_MESSAGE);
 	}
 

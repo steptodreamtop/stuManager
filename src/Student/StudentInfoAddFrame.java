@@ -14,7 +14,7 @@ import java.sql.ResultSet;
  * Title: 学生信息录入 
  * Description: 学生信息录入模块
  * 
- * @author 谢孟辉
+ * @author JAVA设计
  */
 
 public class StudentInfoAddFrame extends JFrame {

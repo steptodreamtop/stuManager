@@ -24,7 +24,7 @@ import java.sql.ResultSet;
  * Title: 学生信息管理
  * Description: 学生信息管理模块，可以分别按学号、姓名、班级查询，是修改、删除学生信息的入口。
  * 
- * @author 谢孟辉
+ * @author JAVA设计
  */
 
 public class StudentManager extends JFrame {

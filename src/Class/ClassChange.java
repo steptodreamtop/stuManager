@@ -19,7 +19,7 @@ import java.awt.event.ActionListener;
  * Title: 班级信息修改 
  * Description: 班级信息修改模块
  * 
- * @author 谢孟辉
+ * @author JAVA设计
  */
 
 public class ClassChange extends JFrame {

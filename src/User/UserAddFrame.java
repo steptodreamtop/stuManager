@@ -19,7 +19,7 @@ import java.awt.event.ActionListener;
  * Title: 用户添加 
  * Description: 用户添加模块，只对管理员显示。
  * 
- * @author 谢孟辉
+ * @author JAVA设计
  */
 
 public class UserAddFrame extends JFrame {
