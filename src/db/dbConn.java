@@ -25,7 +25,7 @@ public class dbConn {
 			Class.forName("com.mysql.jdbc.Driver");
 
 			// 数据库名称，管理员账号、密码
-			String url = "jdbc:mysql://localhost:3306/stuManagerDB";
+			String url = "jdbc:mysql://localhost:3306/stumanagerdb";
 			String user = "root";
 			String pwd = "root";
 

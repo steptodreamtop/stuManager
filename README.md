@@ -18,9 +18,9 @@
 [Java SE Runtime Environment 8 Downloads](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 2. 本程序使用MySQL数据库，使用前请导入[DumpStructureOnly.sql](database/DumpStructureOnly.sql)（数据库结构文件）或者[DumpStructure_and_Data.sql](database/DumpStructure_and_Data.sql)（带有测试数据的数据库文件）进MySQL，并设置如下（可在`dbConn.java`修改）：
     * 数据库端口：3306
-    * 数据库名：stuManagerDB
+    * 数据库名：stumanagerdb
     * 数据库用户名：root
-    * 数据库密码：123
+    * 数据库密码：root
 3. 满足以上条件下运行`stuManager.jar`则可以运行系统。
 
 ## 登录说明

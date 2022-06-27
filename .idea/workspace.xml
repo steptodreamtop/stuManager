@@ -7,24 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f45c32-4871-4588-8e21-5064cfd6ed57" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/ClassAddFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/ClassAddFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/ClassChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/ClassChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class/ClassManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/ClassManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cource/CourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cource/CourceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Depart/DepartManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Depart/DepartManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Score/ScoreManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Score/ScoreManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/StudentChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/StudentChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/StudentInfoAddFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/StudentInfoAddFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student/StudentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/UserAddFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/UserAddFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/UserPasswordFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/UserPasswordFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/dbConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/dbConn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stuManager/LoginClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stuManager/LoginClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stuManager/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stuManager/LoginFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stuManager/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stuManager/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2709,6 +2693,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\system\stuManager\src\img" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\system\stuManager\src\img" />
+      <recent name="D:\system\stuManager\src\Score" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -3036,7 +3024,7 @@
       <workItem from="1514035940345" duration="8378000" />
       <workItem from="1515331010339" duration="1616000" />
       <workItem from="1519232794021" duration="545000" />
-      <workItem from="1656288325039" duration="2428000" />
+      <workItem from="1656288325039" duration="3306000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1656288495219</created>
@@ -3045,7 +3033,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656288495219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1656291041269</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656291041269</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
