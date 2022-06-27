@@ -25,13 +25,23 @@ public class dbConn {
 			Class.forName("com.mysql.jdbc.Driver");
 
 			// 数据库名称，管理员账号、密码
-			String url = "jdbc:mysql://localhost:3306/stumanagerdb";
+//			String url = "jdbc:mysql://localhost:3306/stumanagerdb";
+			String url = "jdbc:mysql://localhost:3306/stumanagerdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+
+			Class.forName("com.mysql.cj.jdbc.Driver");
+//			Class.forName("com.mysql.cj.jdbc.Driver");
+//			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test_demo?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC","root","password");
+
 			String user = "root";
 			String pwd = "root";
 
 			// 连接
 			Connection con = null;
-			con = DriverManager.getConnection(url, user, pwd);
+			try {
+				con = DriverManager.getConnection(url, user, pwd);
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
 			Statement stat = con.createStatement();
 			return stat;
 		} catch (ClassNotFoundException ex) {

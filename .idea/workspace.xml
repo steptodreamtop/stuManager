@@ -7,8 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f45c32-4871-4588-8e21-5064cfd6ed57" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/stuManager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/stuManager.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/dbConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/dbConn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2683,14 +2686,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js-jscs-nodeInterpreter" value="E:\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql-connector-java-8.0.16.jar" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\system\stuManager" />
       <recent name="D:\system\stuManager\src\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -3024,7 +3028,7 @@
       <workItem from="1514035940345" duration="8378000" />
       <workItem from="1515331010339" duration="1616000" />
       <workItem from="1519232794021" duration="545000" />
-      <workItem from="1656288325039" duration="3306000" />
+      <workItem from="1656288325039" duration="8282000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1656288495219</created>
@@ -3040,7 +3044,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656291041269</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1656291705418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656291705418</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
